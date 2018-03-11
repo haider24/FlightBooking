@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding="UTF-8"?>
+
+<tomcat-users>
+
+   <role rolename="admin"/>
+    <role rolename="manager"/>
+    <role rolename="customer"/>
+
+    <user name="haiderali9624@gmail.com" password="customer"
+          roles="customer" />
+    <user name="admin" password="admin"
+          roles="admin" />
+    <user name="manager" password="manager"
+          roles="manager" />
+
+</tomcat-users>
